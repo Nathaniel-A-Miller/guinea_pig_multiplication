@@ -421,7 +421,7 @@ def warlock_3():
 def victory():
     char = st.session_state.character_name
     st.image("victory.png", use_container_width = True)
-    st.write("""
+    st.write(f"""
             In a flash the warlock vanished!
 
             "We did it!" Lady Nibbles yelled. 
@@ -429,4 +429,5 @@ def victory():
             {char} and all the guinea pigs hugged.
              
             The guinea pigs of Littleton were safe once more.
+
              """)

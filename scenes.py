@@ -17,7 +17,7 @@ def intro():
 def encounter():
     char = st.session_state.character_name
     st.write (f"""
-            {char} was walking home from the bus stop one day when he saw a guinea pig 
+            {char} was walking home from the bus stop one day when a guinea pig appeared
             on the sidewalk. That was strange enough, but the guinea pig was also entirely,
             completely pink!
 
@@ -213,4 +213,5 @@ def right_door_2():
 
 def neighbor():
     st.write("under construction")
+
 
